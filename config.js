@@ -1,28 +1,28 @@
 module.exports = {
   /** Site MetaData (Required all)*/
-  title: `Title`,                           // (* Required)
-  description: `Blog Description`,          // (* Required)
-  author: `Author`,                         // (* Required)
-  siteUrl: 'https://',                      // (* Required)
+  title: `Dev.Log`,                           // (* Required)
+  description: `development & study log by Taegyu Kim`,          // (* Required)
+  author: `Taegyu Kim`,                         // (* Required)
+  siteUrl: 'https://taegyukim.github.io',                      // (* Required)
     // ex.'https://junhobaik.github.io'
     // ex.'https://junhobaik.github.io/' << X, Do not enter "/" at the end.
 
   /** Header */
-  profileImageFileName: '', // include filename extension ex.'profile.jpg'
+  profileImageFileName: 'profile.jpeg', // include filename extension ex.'profile.jpg'
     // The Profile image file is located at path "./images/"
     // If the file does not exist, it is replaced by a random image.
 
   /** Home > Bio information*/
-  comment: 'Enter your information in the "./config.js" file. ',
-  name: 'User Name',
+  comment: 'Eager to leran',
+  name: 'Taegyu Kim',
   company: '',
   location: 'Korea',
-  email: '',
-  website: 'https://github.com/junhobaik/junhobaik.github.io',           // ex.'https://junhobaik.github.io'
-  linkedin: '',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
-  facebook: '',                                                          // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
+  email: 'dev.tgkim@gmail.com',
+  website: 'https://taegyukim.github.io',                                // ex.'https://junhobaik.github.io'
+  linkedin: 'https://www.linkedin.com/in/kim-taegyu-31685718a/',         // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
+  facebook: 'https://www.facebook.com/taegyu.kim.503',                   // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
   instagram: '',                                                         // ex.'https://www.instagram.com/junhobaik'
-  github: '',                                                            // ex.'https://github.com/junhobaik'
+  github: 'https://github.com/taegyukim',                                // ex.'https://github.com/junhobaik'
 
   /** Post */
   enablePostOfContents: true,     // TableOfContents activation (Type of Value: Boolean. Not String)
